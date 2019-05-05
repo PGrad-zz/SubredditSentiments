@@ -1,0 +1,12 @@
+[package]
+name = "reddit-sentiment"
+version = "0.1.0"
+authors = ["Paul Grad <paulgrad3rd@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+orca = "0.7.0"
+serde_json = "1.0.39"
+serde = { version = "1.0", features = ["derive"] }
+sentiment = "0.1.1"
+log = "0.4.6"
