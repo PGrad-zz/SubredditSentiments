@@ -1,5 +1,5 @@
 use std::{env, ops::{AddAssign, DivAssign}, fs::File, io::prelude::*};
-use orca::{App, LimitMethod};
+use orca::{App};
 use serde::{Deserialize, Serialize};
 use serde_json::Result;
 use sentiment::{Analysis, Sentiment};
